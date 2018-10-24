@@ -35,12 +35,10 @@ function divAdd() {
     squareDiv.addEventListener('mouseover', function () {
         let squareID = document.createTextNode(this.id);
         squareDiv.append(squareID);
-
     });
 
     squareDiv.addEventListener('mouseout', function () {
         squareDiv.innerText = "  ";
-
     });
 
 };
