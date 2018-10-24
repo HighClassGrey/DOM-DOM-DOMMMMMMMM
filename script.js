@@ -11,7 +11,7 @@ button.addEventListener('click', function () {
     divAdd()
 });
 
-id = 0;
+id = 1;
 
 //funciton to add square to page
 function divAdd() {
@@ -43,21 +43,13 @@ function divAdd() {
 
     squareDiv.addEventListener('dblclick', function () {
         checkEven()
-
     });
 
-
-    // change the value of number to test your Code
-
-    //If number equals 1, then odd should be printed to the console.
-    //If number equals 2, then Even should be printed to the console.
-
-
     function checkEven() {
-        if (this.id >2 ) {
-            console.log('more');
+        if (squareDiv.id %2 ==0) {
+            squareDiv.style.backgroundColor = 'blue';
         } else {
-            console.log('less');
+            squareDiv.style.backgroundColor = 'black';
         }
     };
 
