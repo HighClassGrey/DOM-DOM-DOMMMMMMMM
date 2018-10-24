@@ -1,0 +1,14 @@
+.squareDiv {
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: '200%';
+    color: white;
+    display: inline-block;
+}
+
+body {
+    background-color: blue;
+    float: left;
+}
